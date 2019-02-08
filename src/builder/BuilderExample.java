@@ -17,12 +17,20 @@ public class BuilderExample {
 		PizzaBuilder spicyPizzaBuilder = new SpicyPizzaBuilder();
 		
 		//Builder를 설정 후 만들려는 Pizza객체를 만든다.//
+		cook.setPizzaBuilder(hawaiianPizzaBuilder);
+		cook.constructPizza();
+		
+		//생성된 Pizza객체를 반환//
+		Pizza hawaiianpizza = cook.getPizza();
+		
+		//Builder를 설정 후 만들려는 Pizza객체를 만든다.//
 		cook.setPizzaBuilder(spicyPizzaBuilder);
 		cook.constructPizza();
 		
 		//생성된 Pizza객체를 반환//
-		Pizza pizza = cook.getPizza();
+		Pizza spicypizza = cook.getPizza();
 		
-		System.out.println(pizza.toString());
+		System.out.println(hawaiianpizza.toString());
+		System.out.println(spicypizza.toString());
 	}
 }
