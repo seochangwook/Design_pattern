@@ -2,6 +2,7 @@ package builder;
 
  /*
 Product
+	Director가 Builder로 만들어낸 결과물
   */
 
 public class Pizza {

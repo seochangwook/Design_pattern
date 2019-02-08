@@ -1,7 +1,8 @@
 package builder;
 
 /*
-Director 
+Director
+	Builder를 사용해 객체를 생성
  */
 
 public class Cook {

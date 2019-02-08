@@ -2,6 +2,7 @@ package builder;
 
 /*
 Abstract Builder 
+	빌더 인터페이스
  */
 
 abstract class PizzaBuilder {
