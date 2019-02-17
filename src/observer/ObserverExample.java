@@ -8,11 +8,11 @@ public class ObserverExample {
 		final EventSource evSrc = new EventSource();
 		
 		//옵저버를 생성함//
-		final ResponseHandlerOne respHandler = new ResponseHandlerOne();
+		final ResponseHandlerOne respHandler_one = new ResponseHandlerOne();
 		final ResponseHandlerTwo respHandler_two = new ResponseHandlerTwo();
 	
 		//옵저버가 발행 주체가 발행하는 이벤트를 구독하게 함//
-		evSrc.addObserver(respHandler);
+		evSrc.addObserver(respHandler_one);
 		evSrc.addObserver(respHandler_two);
 		
 		System.out.println("** Observer count: " + evSrc.countObservers());

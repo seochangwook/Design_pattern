@@ -1,5 +1,9 @@
 package observer;
 
+/*
+ * Observer : 등록된 옵저버로 Observable로부터 데이터를 받는다.
+ */
+
 import java.util.Observable;
 import java.util.Observer;
 

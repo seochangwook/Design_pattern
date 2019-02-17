@@ -1,5 +1,9 @@
 package observer;
 
+/*
+ * Observable : 등록된 옵저버 관리, 새로운 데이터 요청 시 등록된 옵저버들에게 데이터 전달
+ */
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
